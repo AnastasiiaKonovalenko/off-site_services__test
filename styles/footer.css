@@ -1,0 +1,14 @@
+.footer {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.55);
+          box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.55);
+  padding: 20px;
+  margin-bottom: 120px; }
+  .footer span {
+    margin-right: 16px; }
+
+@media screen and (max-width: 595px) {
+  .footer__text {
+    display: block; } }
+
+/*# sourceMappingURL=footer.css.map */
