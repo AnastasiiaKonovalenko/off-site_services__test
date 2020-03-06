@@ -161,7 +161,7 @@ h1 {
   -webkit-box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.55);
           box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.55); }
   .article__text {
-    margin: 20px 0 45px 0; }
+    margin: 20px 0 45px; }
     .article__text:first-letter {
       margin-left: 30px; }
   .article__link-container {
@@ -251,7 +251,7 @@ h1 {
     display: block; } }
 
 body {
-  font-family: 'Kameron', serif;
+  font-family: "Kameron", serif;
   margin: 0;
   padding: 30px 46px;
   background: radial-gradient(at top, white 0%, #ada6a0 27%); }
