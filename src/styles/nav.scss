@@ -1,0 +1,40 @@
+.nav {
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    margin-left: 70px;
+    &:first-child {
+      margin-left: 50px;
+    }
+  }
+
+  &__link {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .nav {
+    height: 80px;
+    flex-direction: column;
+
+    &__item:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 595px) {
+  .nav {
+    &__list {
+      height: 200px;
+      flex-direction: column;
+    }
+
+    &__item {
+      margin: 5px 0;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@import "utils";
+@import "typography";
+@import "header.scss";
+@import "nav.scss";
+@import "main_part";
+@import "footer";
+
+body {
+  font-family: 'Kameron', serif;
+  margin: 0;
+  padding: 30px 46px;
+  background: radial-gradient(at top, rgba(255,255,255,1) 0%, rgba(173,166,160,1) 27%);
+}
+
+ul,
+p,
+h2 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+  &:hover {
+    color: #bfbdba;
+  }
+}
